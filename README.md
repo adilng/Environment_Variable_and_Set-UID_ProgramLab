@@ -1,6 +1,8 @@
 ## SEED Labs – Environment Variable and Set-UID Program Lab 1
 The Set-UID mechanism in Unix-based systems is indeed a powerful feature, but it can also be a significant security risk if not handled correctly. When a program with the Set-UID bit set is executed, it runs with the permissions of the file's owner, not the user who executed it. This can be useful for programs that need to perform specific tasks that require elevated privileges, but it can also be exploited if there are vulnerabilities in the program.
 
+[Environment_Variable_and_SetUID.pdf](https://seedsecuritylabs.org/Labs_20.04/Files/Environment_Variable_and_SetUID/Environment_Variable_and_SetUID.pdf)
+
 ### 2.1 Task 1: Manipulating Environment Variables
 #### 1. Printing Environment Variables:
 **Objective**: Understand how to view environment variables.
